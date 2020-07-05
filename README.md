@@ -1,6 +1,7 @@
 # Test_brown_rabbit_ns
-jeg har haft problemer med at læse jeres psd-fil.
-så kunne ikke arbejde ud fra den desværrer.
+Jeg har haft problemer med at læse jeres psd-fil.
+Så kunne ikke arbejde ud fra den desværrer.
 
-samt har jeg heller ikke arbejde med github før end nu.
-og forstår desværrer ikke hvordan det er det fungere. 
+Samt har jeg heller ikke arbejde med github før end nu.
+Og forstår desværrer ikke hvordan det er det fungere. 
+Så har ikke lavet et pull request.
