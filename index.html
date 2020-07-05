@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div  id="Start"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="navbar">
+        <a class="navbar-brand" href="#">Brown_rabbit</a>
+        <div id="Show_searched_word">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <div class="nav-link">
+                        <a href="#Start">start</a>
+                    </div>
+                </li>
+                <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <div id="articel_div1" class="nav-link">
+                        <a href="#Articel 1" >NASA</a>
+                    </div>
+                </li>
+                <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <div id="articel_div2" class="nav-link">
+                        <a href="#Articel 2" >Amazon</a>
+                    </div>
+                </li>
+                <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <div id="articel_div3" class="nav-link">
+                        <a href="#Articel 3" >Microsoft</a>
+                    </div>
+                </li>
+                <li class="nav-item"data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <div id="articel_div1" class="nav-link">
+                        <a href="#search" >Search</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="spaceing_image"></div>
+    <div class="anchor">
+        <div id="RandomImageSlider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carusel-item active">
+                    <img class="d-block" id="random">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#RandomImageSlider" role="button" data-slide="prev" onclick="pre(-1)">
+                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                <span class="sr-only">previous</span>
+            </a>
+            <a class="carousel-control-next" href="#RandomImageSlider" role="button" data-slide="next" onclick="next(1)">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">next</span>
+            </a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="placement_for_text_search">
+        <div class="anchor" id="search"></div>
+        <input class=text_search id=x placeholder="Search here">
+    </div>
+    <div id="words"></div>
+    <div class="text_x">
+        <div class="spaceing" data-target="navbar" data-offset="0">
+            <div id="Art_div1">
+                <h2 class="anchor" id="Articel 1">NASA engineers build new COVID-19 ventilator in 37 days</h2>
+                <img class="articel_image" src="billeder\Ventilator_nasa.jpg" alt="">
+                <p class="Wrote_by">By Mike Wall - Space.com Senior Writer April 24, 2020</p>
+            </div>
+            <div id="module">
+            <p class="collapse" id="collapseText1" aria-expanded="false">
+                NASA brainpower may soon start making a big difference in the fight against the coronavirus pandemic. <br>
+                A prototype ventilator built in just 37 days by engineers at NASA's Jet Propulsion Laboratory (JPL) in Pasadena, California, passed a key test this week at the Icahn School of Medicine at Mount Sinai in New York City, agency officials announced Thursday (April 23). <br>
+                <br>
+                "We specialize in spacecraft, not medical-device manufacturing," JPL director Michael Watkins said in a statement. (JPL is NASA's lead center for robotic planetary exploration.) <br>
+                <br>
+                "But excellent engineering, rigorous testing and rapid prototyping are some of our specialties," he added. "When people at JPL realized they might have what it takes to support the medical community and the broader community, they felt it was their duty to share their ingenuity, expertise and drive." <br>
+            </p>
+                <a id="Show_More_Less" role="button" class="collapsed" data-toggle="collapse" href="#collapseText1" aria-expanded="false" aria-controls="collapseText1" ></a>
+            </div>
+            <div id="Art_div2">
+                <h2 class="anchor" id="Articel 2">Amazon giving $500 million in one-time bonuses to front-line workers as a 'thank you'</h2>
+                <img class="articel_image" src="billeder\amazon.jpg" alt="">
+                <p class="Wrote_by">By Sara Ashley O'Brien, CNN Business June 29, 2020</p>
+            </div>
+            <div id="module">
+            <p class="collapse" id="collapseText2" aria-expanded="false">
+                Amazon is giving out more than $500 million as a "Thank You bonus" to front-line workers who were with the company throughout the month of June, a move that comes after the e-commerce giant eliminated a $2 hourly wage bump and double overtime pay for frontline workers at the end of May. <br>
+                <br>
+                "Our front-line operations teams have been on an incredible journey over the last few months, and we want to show our appreciation with a special one-time Thank You bonus totaling over $500 million," said Amazon (AMZN) senior vice president of worldwide operations Dave Clark in a note about the bonuses. <br>
+                <br>
+                The one-time bonus amounts vary. Full-time employees of Amazon, Amazon-owned Whole Foods, or drivers for delivery service partners will get $500; part-time employees or drivers will get $250; front-line leaders at Amazon and Whole Foods will get $1,000; and delivery service partner owners, who help get packages to customers, will get $3,000. Drivers for Amazon Flex who worked more than 10 hours in June will get $150. <br>
+            </p>
+                <a id="Show_More_Less" role="button" class="collapsed" data-toggle="collapse" href="#collapseText2" aria-expanded="false" aria-controls="collapseText2" ></a>
+            </div>
+            <div id="Art_div3">
+                <h2 class="anchor" id="Articel 3">Microsoft to auto upgrade some business and education PCs to Chromium Edge in August</h2>
+                <img class="articel_image" src="billeder\microsoft.jpg" alt="">
+                <p class="Wrote_by">By Gregg Keizer, Senior Reporter, Computerworld JUL 2, 2020</p>
+            </div>
+            <div id="module">
+            <p class="collapse" id="collapseText3" aria-expanded="false">
+                Microsoft this week warned enterprise and education customers running Windows 10 that it will start replacing the old, original Edge browser on their PCs with the newer Chromium-based version on or after July 30. <br>
+                <br>
+                First to get the forced swap will be machines in educational settings, Microsoft said, citing back-to-school scheduling for the prioritization. (Many K-12 schools, along with colleges and universities, are saying, "We will share a business timeline at a later date," wrote Elliot Kirk, senior program manager with the Edge team, in a July 30 post to a company blog.) <br>
+                <br>
+                According to Kirk, PCs serviced by Windows Update will be automatically upgraded to the Chromium Edge. "This update will not impact devices in education and business updated by Windows Update for Business (WUfB) or by Windows Server Update Services (WSUS)," he asserted. <br>
+            </p>
+                <a id="Show_More_Less" role="button" class="collapsed" data-toggle="collapse" href="#collapseText3" aria-expanded="false" aria-controls="collapseText3" ></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

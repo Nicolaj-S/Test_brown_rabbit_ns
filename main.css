@@ -1,0 +1,198 @@
+html,body {
+    margin: 0px;
+    width: 100vw;
+    height: 200%;
+    overflow-x: hidden;
+    font-family: Helvetica;
+    background-color: grey;
+}
+h2{
+    text-align: center;
+}
+.articel_image{
+    margin-top: .7em;
+    margin-left: 30%;
+    width: 40vw;
+    height: 50vh;
+}
+input{
+    border: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+img { 
+    margin:auto;
+    border:none; 
+    height: 65vh;
+    width: 60vw;
+}
+p{
+    margin-left: .5em;
+    margin-right: .5em;
+    line-height: 1.6;
+}
+.Wrote_by{
+    margin-top: .5em;
+    color: white;;
+}
+.text_search {
+    margin-left: 2em;
+}
+.Show_word_count{
+    color: white;
+    margin-top: -1.5em;
+    margin-left: 11.6em;
+}
+.hide_word_count{
+    margin-top: -1.5em;
+    margin-left: 11.6em;
+    visibility: hidden;
+}
+.spaceing{
+    margin-top: 1em;
+}
+.spaceing_image{
+    margin-top: 3.5em;
+}
+.placement_for_text_search{
+    margin-left: -1.8em;
+}
+.Show_more_less {
+    cursor: pointer;
+}
+.anchor {
+    color: white;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+.highlight {
+    background-color: rgba(236, 234, 86, 0.699);
+}
+.highlight_nav a{
+    color: rgba(236, 234, 86, 0.699);
+}
+.hightlight_text h2{
+    color: rgba(236, 234, 86, 0.699);
+}
+.highlight_nav_icon {
+    background-color: rgba(236, 234, 86, 0.699);
+}
+.text_color{
+    color: white;
+}
+.clear{
+    padding-top: 30px;
+}
+#module {
+    text-align: left;
+    color:white;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#module #collapseText1.collapse:not(.show) {
+    display: block;
+    height: 3rem;
+    overflow: hidden;
+}
+#module #collapseText1.collapsing {
+    height: 3rem;
+}
+#module #collapseText2.collapse:not(.show) {
+    display: block;
+    height: 3rem;
+    overflow: hidden;
+}
+#module #collapseText2.collapsing {
+    height: 3rem;
+}
+#module #collapseText3.collapse:not(.show) {
+    display: block;
+    height: 3rem;
+    overflow: hidden;
+}
+#module #collapseText3.collapsing {
+    height: 3rem;
+}
+#module a.collapsed::after {
+    content: '+ Se mere';
+}
+#module a:not(.collapsed)::after {
+    content: '- Se mindre';
+}
+/*--------------------------------------*/
+/*---------------mobile-----------------*/
+/*--------------------------------------*/
+@media only screen and (max-width:375px){
+    img { 
+        height: 20vh;
+        width: 75vw;
+    }
+    h2{
+        margin-left: .5em;
+        margin-right: .5em;
+        font-size: 1.5em;
+    }
+    p{
+        margin-left: .5em;
+        margin-right: .5em;
+        font-size: .7em;
+    }
+    .articel_image{
+        margin-left: 15%;
+        width: 70vw;
+        height: 32.5vh;
+    }
+}
+/*--------------------------------------*/
+/*---------------Tablet-----------------*/
+/*--------------------------------------*/
+@media only screen and (min-width:376px) and (max-width:768px){
+    img { 
+        height: 30vh;
+        width: 60vw;
+    }
+    h2{
+        margin-left: .5em;
+        margin-right: .5em;
+        font-size: 1.8em;
+    }
+    p{
+        margin-left: .5em;
+        margin-right: .5em;
+        font-size: .9em;
+    }
+    .articel_image{
+        margin-left: 25%;
+        width: 50vw;
+        height: 25vh;
+    }
+}
+/*--------------------------------------*/
+/*---------------Desktop----------------*/
+/*--------------------------------------*/
+@media only screen and (min-width:769px) and (max-width:1280px){
+    img { 
+        height: 50vh;
+        width: 60vw;
+    }
+    h2{
+        margin-left: .5em;
+        margin-right: .5em;
+        font-size: 1.5em;
+    }
+    p{
+        margin-left: .5em;
+        margin-right: .5em;
+        font-size: 1em;
+    }
+    .articel_image{
+        width: 40vw;
+        height: 35vh;
+    }
+}
