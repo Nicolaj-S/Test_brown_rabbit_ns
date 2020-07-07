@@ -4,4 +4,4 @@ Så kunne ikke arbejde ud fra den desværrer.
 
 Samt har jeg heller ikke arbejde med github før end nu.
 Og forstår desværrer ikke hvordan det er det fungere. 
-Så har ikke lavet et pull request.
+
